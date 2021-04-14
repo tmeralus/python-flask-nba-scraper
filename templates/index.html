@@ -1,0 +1,31 @@
+{% extends "layout.html" %}
+{% block page_title %}Welcome{% endblock %}
+{% block body %}
+    {{ super() }}
+
+    <p>This is a minimal web app developed with <a href="http://flask.pocoo.org/">Flask</a> framework.</p>
+    <p>The purpose of this web app is to scrape the web for data about a chosen nba team and compare team stats</p>
+    <p>Here is a current list of features that can be checked</p>
+
+    <ul>
+        <li># of Championships</li>
+        <li># of conference titles</li>
+        <li># Division Titles</li>
+        <li>Head Coach</li>
+        <li>Retired Jersey Numbers</li>
+        <li>Team Colors</li>
+    </ul>
+
+    <p>Projected Future Goals</p>
+    <ul>
+        <li>Compare Season Points</li>
+        <li>Compare Season Rebounds</li>
+        <li>Compare Season Assists</li>
+        <li>Compare Season Blocks</li>
+        <li>Compare Season Steals</li>
+        <li>Compare Season Field Goal Percentage</li>
+        <li>Compare Season Three Points Made </li>
+        <li>Compare Season Three Point Percentage</li>
+        <li>Compare Season Free Throw Percentage</li>
+    </ul>
+{% endblock %}
