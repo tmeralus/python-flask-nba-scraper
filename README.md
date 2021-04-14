@@ -16,9 +16,9 @@ The purpose of this web app is to scrape the web for data about a nba teams and 
 
 ### CURRENT DEVELOPMENT
 A list of current available information in development
-- # of Championships
-- # of conference titles
-- # Division Titles
+- Number of Championships
+- Number of conference titles
+- Number Division Titles
 - Head Coach
 - Retired Jersey Numbers
 - Team Colors
