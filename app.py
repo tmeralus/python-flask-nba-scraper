@@ -7,12 +7,8 @@ from database import read_note_from_db, write_note_into_db, delete_note_from_db,
 from database import image_upload_record, list_images_for_user, match_user_id_with_image_uid, delete_image_from_db
 from werkzeug.utils import secure_filename
 
-
-
 app = Flask(__name__)
 app.config.from_object('config')
-
-
 
 @app.errorhandler(401)
 def FUN_401(error):
@@ -33,10 +29,6 @@ def FUN_405(error):
 @app.errorhandler(413)
 def FUN_413(error):
     return render_template("page_413.html"), 413
-
-
-
-
 
 @app.route("/")
 def FUN_root():
@@ -149,7 +141,7 @@ def FUN_login():
     id_submitted = request.form.get("id").upper()
     if (id_submitted in list_users()) and verify(id_submitted, request.form.get("pw")):
         session['current_user'] = id_submitted
-    
+
     return(redirect(url_for("FUN_root")))
 
 @app.route("/logout/")
