@@ -13,7 +13,6 @@ The purpose of this web app is to scrape the web for data about a nba teams and 
 
 (SCREENSHOT)[]
 
-
 ### CURRENT DEVELOPMENT
 A list of current available information in development
 - Number of Championships
