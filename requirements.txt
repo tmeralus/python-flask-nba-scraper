@@ -9,4 +9,4 @@ python-decouple==3.4
 gunicorn==20.0.4
 jinja2==2.11.3
 postgres==3.0.0
-postgres-utils==0.0.2
+psycopg2-binary==2.9.1

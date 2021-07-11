@@ -1,6 +1,6 @@
 {% extends "layouts/base-fullscreen.html" %}
 
-{% block title %} Sign In {% endblock %} 
+{% block title %} Sign In {% endblock %}
 
 <!-- Specific Page CSS goes HERE  -->
 {% block stylesheets %}{% endblock stylesheets %}
@@ -17,7 +17,7 @@
                             <div class="text-center text-md-center mb-4 mt-md-0">
                                 <h1 class="mb-0 h3">
                                     <a target="_blank"
-                                       href="https://appseed.us/admin-dashboards/flask-dashboard-volt">Flask Volt</a> - Sign UP
+                                       href="https://appseed.us/admin-dashboards/flask-dashboard-volt">Sports Matchup</a> - Sign UP
                                 </h1>
                                 <br />
                                 <p>
@@ -25,12 +25,12 @@
                                         {{ msg | safe }}
                                     {% else %}
                                         Add your credentials
-                                    {% endif %}                                     
-                                </p>                                 
+                                    {% endif %}
+                                </p>
                             </div>
 
                             <form method="post" action="" class="mt-4">
-                                
+
                                 {{ form.hidden_tag() }}
 
                                 <!-- Form -->
@@ -39,7 +39,7 @@
                                     <div class="input-group">
                                         <span class="input-group-text" id="basic-addon1"><span class="fas fa-user-circle"></span></span>
                                         {{ form.username(placeholder="Username", class="form-control") }}
-                                    </div>  
+                                    </div>
                                 </div>
                                 <!-- End of Form -->
                                 <div class="form-group">
@@ -49,7 +49,7 @@
                                         <div class="input-group">
                                             <span class="input-group-text" id="basic-addon2"><span class="fas fa-unlock-alt"></span></span>
                                             {{ form.password(placeholder="Password", class="form-control", type="password") }}
-                                        </div>  
+                                        </div>
                                     </div>
                                     <!-- End of Form -->
                                     <div class="d-flex justify-content-between align-items-top mb-4">
@@ -71,7 +71,7 @@
 
                             <div class="d-flex justify-content-center align-items-center mt-4">
                                 <span class="font-weight-normal">
-                                    &copy; <a  href="https://themesberg.com" target="_blank">Themesberg</a> 
+                                    &copy; <a  href="https://themesberg.com" target="_blank">Themesberg</a>
                                     - coded by <a target="_blank" href="https://appseed.us">AppSeed</a>
                                 </span>
                             </div>
