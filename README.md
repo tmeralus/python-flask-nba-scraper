@@ -33,6 +33,14 @@ A list of current available information in development
 - Compare Season Three Point Percentage
 - Compare Season Free Throw Percentage
 
+=========================================================
+* Volt Free - Bootstrap 5 Dashboard
+=========================================================
+
+* Product Page: https://themesberg.com/product/admin-dashboard/volt-premium-bootstrap-5-dashboard
+* Copyright 2020 Themesberg (https://www.themesberg.com)
+
+* Designed and coded by https://themesberg.com
 
 ## References
 - http://flask.pocoo.org/

@@ -9,6 +9,12 @@ services:
     networks:
       - db_network
       - web_network
+  postgres:
+    image: postgres:latest
+    networks:
+      - db_network
+      - web_network
+    restart: always    
   nginx:
     restart: always
     image: "nginx:latest"
